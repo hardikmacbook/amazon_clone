@@ -260,7 +260,7 @@ ul a {
    /* display: flex;
     justify-content: center;
     align-items: center; */
-    height: 90px;
+    height: 120px;
 }
 
 .pages{
@@ -269,5 +269,16 @@ ul a {
 
 .copyright{
     padding-top: 5px;
+}
+.copyright p{
+    color: #777;
+}
+.copyright p a{
+    color: #fff;
+    text-decoration: none;
+}
+.copyright p a:hover{
+    color: red;
+    border-bottom: 1px solid white;
 }
 
